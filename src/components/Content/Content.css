@@ -1,0 +1,14 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.product-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  row-gap: 64px;
+  column-gap: 256px;
+}
